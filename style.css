@@ -1062,15 +1062,15 @@ footer a:hover {
     section[style*="background-image"],
     div[style*="background"] {
         background-attachment: scroll !important;
-        background-size: auto 100% !important;
-        background-position: center !important;
+        background-size: contain !important;
+        background-position: center top !important;
         background-repeat: no-repeat !important;
-        -webkit-background-size: auto 100% !important;
+        -webkit-background-size: contain !important;
     }
     
     /* Override any 150% background sizes on mobile */
     section[style*="background-size: 150%"] {
-        background-size: auto 100% !important;
+        background-size: contain !important;
     }
     
     .hero,
