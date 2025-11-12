@@ -1057,13 +1057,13 @@ footer a:hover {
         padding: 3rem 1rem;
     }
     
-    /* Mobile-specific background image fixes - Make ALL backgrounds crisp and clear */
+    /* Mobile-specific background image fixes - Make ALL backgrounds crisp and clear like hero */
     section[style*="background"] {
         background-attachment: scroll !important;
-        background-size: 100% auto !important;
+        background-size: contain !important;
         background-position: center top !important;
         background-repeat: no-repeat !important;
-        -webkit-background-size: 100% auto !important;
+        -webkit-background-size: contain !important;
     }
     
     div[style*="background"] {
@@ -1077,11 +1077,11 @@ footer a:hover {
     .hero,
     .hero[style*="background"] {
         background-attachment: scroll !important;
-        background-size: 100% auto !important;
+        background-size: contain !important;
         background-position: center top !important;
         background-repeat: no-repeat !important;
         min-height: 50vh;
-        -webkit-background-size: 100% auto !important;
+        -webkit-background-size: contain !important;
     }
     
     .section-title {
