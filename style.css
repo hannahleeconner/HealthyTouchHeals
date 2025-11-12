@@ -1057,23 +1057,30 @@ footer a:hover {
         padding: 3rem 1rem;
     }
     
-    /* Mobile-specific background image fixes */
-    section[style*="background"] {
+    /* Mobile-specific background image fixes - Make backgrounds crisp and clear */
+    section[style*="background"],
+    section[style*="background-image"],
+    div[style*="background"] {
         background-attachment: scroll !important;
-        background-size: cover !important;
-        background-position: center center !important;
+        background-size: auto 100% !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        -webkit-background-size: auto 100% !important;
     }
     
     /* Override any 150% background sizes on mobile */
     section[style*="background-size: 150%"] {
-        background-size: cover !important;
+        background-size: auto 100% !important;
     }
     
-    .hero {
+    .hero,
+    .hero[style*="background"] {
         background-attachment: scroll !important;
-        background-size: cover !important;
-        background-position: center !important;
-        min-height: 60vh;
+        background-size: contain !important;
+        background-position: center top !important;
+        background-repeat: no-repeat !important;
+        min-height: 50vh;
+        -webkit-background-size: contain !important;
     }
     
     .section-title {
