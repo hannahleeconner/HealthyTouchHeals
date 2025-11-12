@@ -1064,6 +1064,11 @@ footer a:hover {
         background-position: center center !important;
     }
     
+    /* Override any 150% background sizes on mobile */
+    section[style*="background-size: 150%"] {
+        background-size: cover !important;
+    }
+    
     .hero {
         background-attachment: scroll !important;
         background-size: cover !important;
