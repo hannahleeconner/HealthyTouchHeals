@@ -155,10 +155,6 @@ nav .container {
    Hero Section
    ============================================ */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('./horseshoe.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
     color: #ffffff;
     padding: 5rem 2rem;
     text-align: center;
