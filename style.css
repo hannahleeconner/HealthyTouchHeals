@@ -1057,6 +1057,20 @@ footer a:hover {
         padding: 3rem 1rem;
     }
     
+    /* Mobile-specific background image fixes */
+    section[style*="background"] {
+        background-attachment: scroll !important;
+        background-size: cover !important;
+        background-position: center center !important;
+    }
+    
+    .hero {
+        background-attachment: scroll !important;
+        background-size: cover !important;
+        background-position: center !important;
+        min-height: 60vh;
+    }
+    
     .section-title {
         font-size: 1.75rem;
         margin-bottom: 2rem;
